@@ -46,13 +46,21 @@ header {
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 0 1em;
+  margin: 0 .5em;
   padding: 10px 15px;
   background-color: rgba(12, 11, 11, 0);
   border: none;
   border-bottom: 2px solid #fff;
+  transition: all 1s;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
 }
-
+.header__content ul a:hover {
+  border-bottom: 2px solid rgba(12, 11, 11, 0);
+  color: #00cdce;
+}
 
 .header__content p {
   font-size: 3.5rem;
